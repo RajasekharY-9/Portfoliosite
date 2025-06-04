@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Yalamilli Rajasekhar",
   roles: [
-    "Full Stack Developer",
+    "Backend Developer",
     "Java Developer",
     "Programmer",
   ],
@@ -9,7 +9,7 @@ export const Bio = {
     "Java Developer with 3 years of experience in building scalable Java-based enterprise applications using Java 8/17, Spring Boot, Microservices, and RESTful APIs. ",
   github: "https://github.com/RajasekharY-9",
   resume:
-    "https://drive.google.com/file/d/1sDqEpws6sth1BkNmWcJjLgObl5iTa-b8/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Fsb6U5HFECC40v5-2OGSW-lFHucNNs0F/view?usp=drive_link",
 };
 
 export const skills = [
@@ -37,12 +37,7 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
+      }
       
      
     ],
@@ -111,11 +106,7 @@ export const skills = [
           "https://imgs.search.brave.com/1w2IJchsXRTVRHNr_PudF94KNt_ou5JQD16__QEFb6o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90b29s/c3FhLmNvbS9nYWxs/ZXJ5L1Bvc3RtYW4v/cG9zdG1hbi5wbmc",
       },
      
-      {
-        name: "Figma",
-        image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-      },
+    
     ],
   },
 ];
@@ -177,17 +168,7 @@ export const projects = [
     category: "web app",
 
   },
-  {
-    id: 0,
-    title: "CRM",
-   
-    description:
-      "Developed a full-stack web application that allows users to search for Vendors ,Reports ,Centers etc.",
-    
-    tags: ["React Js", "Postgres", "Springboot", "Java", "Redux"],
-    category: "web app",
 
-  },
   {
     id: 1,
     title: "Puma2.0",
