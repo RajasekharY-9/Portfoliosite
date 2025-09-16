@@ -9,7 +9,7 @@ export const Bio = {
     "Java Developer with 3.3+ years of experience in building scalable Java-based enterprise applications using Java 8/17, Spring Boot, Microservices, and RESTful APIs. ",
   github: "https://github.com/RajasekharY-9",
   resume:
-    "https://drive.google.com/file/d/1Fsb6U5HFECC40v5-2OGSW-lFHucNNs0F/view?usp=drive_link",
+    "https://drive.google.com/file/d/1RSLOfODIHWV-8MD8QcrEPPOFTmUWDkh-/view?usp=drive_link",
 };
 
 export const skills = [
