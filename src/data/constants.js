@@ -6,10 +6,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Java Developer with 3.3+ years of experience in building scalable Java-based enterprise applications using Java 8/17, Spring Boot, Microservices, and RESTful APIs. ",
+    "Java Developer with 3.4+ years of experience in building scalable Java-based enterprise applications using Java 8/17, Spring Boot, Microservices, and RESTful APIs. ",
   github: "https://github.com/RajasekharY-9",
   resume:
-    "https://drive.google.com/file/d/1CoirboUMzITqO8xDLoapoW3o3Sj1ZTvf/view?usp=sharing",
+    "https://drive.google.com/file/d/1nJOPGYgY768HWsjYJ-nw-mfD448POvxS/view?usp=sharing",
 };
 
 export const skills = [
@@ -189,10 +189,10 @@ export const projects = [
   },
    {
     id: 3,
-    title: "CRM",
+    title: "CM",
 
     description:
-      "CRM",
+      "Contract Management Application ",
    
     tags: [
       "Java",
