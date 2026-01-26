@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Java Developer with 3.7+ years of hands-on experience across the complete Software Development Life Cycle (SDLC), including requirement analysis, application design, development, testing, deployment, and production support. Strong expertise in building scalable enterprise applications using Java (8/17), Spring Boot, Microservices, and REST APIs. AWS Certified Cloud Practitioner with foundational knowledge of cloud architecture, security, and core AWS services. ",
+    "Java Developer with 3.8+ years of hands-on experience across the complete Software Development Life Cycle (SDLC), including requirement analysis, application design, development, testing, deployment, and production support. Strong expertise in building scalable enterprise applications using Java (8/17), Spring Boot, Microservices, and REST APIs. AWS Certified Cloud Practitioner with foundational knowledge of cloud architecture, security, and core AWS services. ",
   github: "https://github.com/RajasekharY-9",
   resume:
     "https://drive.google.com/file/d/1Si9fgQzhr8GpCDlWzEx8OGaIxbkiuAqh/view?usp=sharing",
