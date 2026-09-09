@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Java Developer with close to 4 years of hands-on experience across the complete Software Development Life Cycle (SDLC), including requirement analysis, application design, development, testing, deployment, and production support. Strong expertise in building scalable enterprise applications using Java (8/17), Spring Boot, Microservices, and REST APIs. AWS Certified Cloud Practitioner with foundational knowledge of cloud architecture, security, and core AWS services. ",
+    "Java Developer with 4+ years of hands-on experience across the complete Software Development Life Cycle (SDLC), including requirement analysis, application design, development, testing, deployment, and production support. Strong expertise in building scalable enterprise applications using Java (8/17), Spring Boot, Microservices, and REST APIs. AWS Certified Cloud Practitioner with foundational knowledge of cloud architecture, security, and core AWS services. ",
   github: "https://github.com/RajasekharY-9",
   resume:
     "https://drive.google.com/file/d/19i35Kppbp6Aq-iW0q8geSvBZZJw3w2PV/view?usp=sharing",
@@ -51,7 +51,19 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "Spring",
+        name: "Spring Boot",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "Spring AI",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "Gen AI",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "Kafka",
         image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
       },
       {
@@ -129,9 +141,30 @@ export const experiences = [
       "React Js",
       "Dynatrace",
       "Linux",
+       "Gen AI Studio",
+       "Github Copilot",
     ]
   },
-  
+  {
+    id: 1,
+    //img: "https://www.vectorlogo.zone/logos/amazon/amazon-icon.svg",
+    role: "Software Engineer",
+    company: "MyCompliance Office",
+    date: "April 2026 - Present",
+    desc: "Worked on backend development, CI/CD improvements, and database migrations. I’ve also gained hands-on experience in Generative AI, including Spring AI, RAG applications, LLM integration, embeddings, prompt engineering, and custom AI agents.",
+    skills: [
+      "Java",
+      "SpringBoot",
+      "Microservices",
+      "RAG",
+      "Claude",
+      "Oracle",
+      "Datadog",
+      "Kubernetes",
+      "Docker",
+       "Datadog",
+    ]
+  },
 
 ];
 
@@ -201,6 +234,25 @@ export const projects = [
       "Github",
       "AWS",
       "POSTGRES",
+    ],
+    category: "web app",
+   
+  },
+
+  {
+    id: 4,
+    title: "MCO",
+
+    description:
+      "MyCompliance Office ",
+   
+    tags: [
+      "Java",
+      "Spring",
+      "Angular",
+      "Gitlab",
+      "Oracle",
+      "Datadog",
     ],
     category: "web app",
    
