@@ -1,0 +1,343 @@
+Absolutely. We’ll **pause Java/backend for now** and complete the **entire GenAI/LLM + RAG + Agents + MCP + Cloud/AI integration track first**.
+
+I’ll treat your JD as the syllabus and your resume as the experience boundary. The JD explicitly emphasizes prompt engineering, RAG, agentic workflows, MCP, vector databases, LLM APIs, cloud, evaluation/safety, and model selection.  Your resume adds Spring AI, RAG, embeddings, Claude, planner/implementer agents, and MCP exploration. 
+
+### AI interview syllabus we'll finish
+
+**1. GenAI & LLM fundamentals**
+
+* AI vs ML vs DL vs GenAI
+* LLM architecture
+* Transformers
+* Attention / self-attention
+* Encoder vs decoder
+* Tokens/tokenization
+* Context window
+* Parameters
+* Temperature, top-K, top-P
+* Inference
+* Hallucination
+* Deterministic vs probabilistic output
+* LLM limitations
+* Open-source vs proprietary models
+
+**2. Prompt engineering**
+
+* Zero-shot
+* One-shot / few-shot
+* System/user/assistant prompts
+* Role prompting
+* Structured output
+* JSON output
+* Prompt templates
+* Variables
+* Prompt chaining
+* Context injection
+* Instruction hierarchy
+* Prompt optimization
+* Prompt injection
+* Jailbreaking
+* Chain-of-thought considerations
+* When prompting is preferable to fine-tuning
+
+**3. LLM APIs + Spring AI**
+
+* OpenAI vs Anthropic
+* Claude
+* LLaMA
+* Mistral
+* Model selection
+* API integration
+* Streaming
+* Function/tool calling
+* Structured output
+* Spring AI architecture
+* ChatClient
+* PromptTemplate
+* Advisors
+* Chat memory
+* Tool calling
+* Model abstraction
+* Provider switching
+* Error handling
+* Retry/fallback
+* Token/cost management
+
+**4. RAG — complete deep dive**
+
+* Why RAG
+* RAG vs fine-tuning
+* RAG architecture
+* Ingestion pipeline
+* Document loaders
+* Parsing
+* Cleaning
+* Chunking
+* Chunk size
+* Chunk overlap
+* Metadata
+* Embeddings
+* Embedding models
+* Vector databases
+* Similarity search
+* Cosine similarity
+* Euclidean distance
+* Vector indexing
+* Top-K retrieval
+* Metadata filtering
+* Semantic search
+* Keyword search
+* Hybrid search
+* BM25
+* Reranking
+* Query rewriting
+* Multi-query retrieval
+* Context compression
+* Parent-child retrieval
+* Context-window optimization
+* Retrieval failures
+* Hallucination reduction
+* RAG evaluation
+* Precision/recall
+* Faithfulness
+* Groundedness
+* Enterprise document security
+* Multi-tenant RAG
+* RAG scalability
+* RAG latency/cost
+
+**5. Vector databases**
+
+* FAISS
+* Pinecone
+* Weaviate
+* Vector indexes
+* Similarity metrics
+* Metadata filtering
+* Persistent vs in-memory vectors
+* Scaling
+* Sharding
+* Updates/deletions
+* Hybrid retrieval
+* Choosing a vector DB
+
+**6. Agents / agentic AI**
+
+* What is an agent?
+* Workflow vs agent
+* Agent architecture
+* Tool calling
+* Function calling
+* Planning
+* Task decomposition
+* ReAct
+* Planner/Executor
+* Planner/Implementer
+* Autonomous agents
+* Multi-agent systems
+* Agent memory
+* Short-term vs long-term memory
+* Agent state
+* Agent loops
+* Tool selection
+* Tool failure
+* Retry
+* Reflection
+* Human-in-the-loop
+* Guardrails
+* Agent security
+* Agent observability
+* Agent evaluation
+* When NOT to use agents
+
+Your planner/implementer work will be heavily targeted here. 
+
+**7. MCP — highest-priority gap**
+
+* What MCP is
+* Why MCP exists
+* MCP architecture
+* Host
+* MCP client
+* MCP server
+* Tools
+* Resources
+* Prompts
+* Tool discovery
+* Tool invocation
+* MCP lifecycle
+* MCP transport
+* MCP vs REST
+* MCP vs function calling
+* MCP vs plugins
+* MCP vs RAG
+* MCP + agents
+* MCP + Spring AI
+* MCP + Java
+* MCP + databases
+* MCP + Jira
+* MCP + internal APIs
+* Authentication
+* Authorization
+* Permission boundaries
+* Tool isolation
+* Prompt injection through tools
+* Data exfiltration risks
+* Server security
+* Failure handling
+* Timeouts
+* Retries
+* Observability
+* Scalability
+* Enterprise MCP architecture
+
+The JD explicitly calls for MCP implementation and understanding of clients, servers, and host applications. 
+
+**8. AI security & safety**
+
+* Prompt injection
+* Indirect prompt injection
+* Jailbreaking
+* Sensitive data leakage
+* PII
+* Authorization
+* Tool permissions
+* Least privilege
+* RAG access control
+* Tenant isolation
+* Output validation
+* Guardrails
+* Content filtering
+* Secure tool calling
+* Audit logging
+* Data exfiltration
+* Model abuse
+
+**9. Evaluation**
+
+* Why LLM evaluation is different
+* Offline vs online evaluation
+* Golden datasets
+* Human evaluation
+* LLM-as-a-judge
+* RAG evaluation
+* Retrieval evaluation
+* Answer relevance
+* Faithfulness
+* Groundedness
+* Agent evaluation
+* Tool-call accuracy
+* Regression testing
+* Prompt regression
+* Production monitoring
+
+**10. Fine-tuning + model selection**
+
+* Prompting vs RAG vs fine-tuning
+* Fine-tuning vs instruction tuning
+* LoRA / PEFT
+* When to fine-tune
+* When not to fine-tune
+* Dataset requirements
+* Model selection
+* Quality vs latency
+* Cost vs quality
+* Context-window differences
+* Open vs proprietary models
+* LLaMA
+* Mistral
+* Claude
+* OpenAI models
+
+**11. AI system design**
+We'll eventually design systems such as:
+
+> Enterprise document Q&A → Java + Spring Boot + Spring AI + RAG + vector DB + Claude + AWS
+
+and:
+
+> Enterprise AI agent → Java + Spring AI + MCP + Jira + PostgreSQL + internal REST APIs + enterprise RAG
+
+You'll have to defend **architecture → data flow → retrieval → LLM → agents → MCP → security → scalability → reliability → observability → cost**.
+
+**12. Cloud + GenAI**
+
+* AWS AI architecture
+* S3 for documents
+* SQS/SNS
+* Lambda where appropriate
+* ECS/EKS
+* Secrets Manager
+* CloudWatch
+* RDS
+* API Gateway
+* IAM
+* Networking
+* Containerized AI services
+* Azure equivalents
+* GCP equivalents
+* Cloud-hosted vector/search services
+* Production LLM integration
+
+Your AWS experience includes S3, SQS, SNS, EC2, Route53, CloudWatch, RDS, Secrets Manager and CloudFront. 
+
+---
+
+### How we'll do it
+
+I **will not dump the answers on you**.
+
+We'll go **one question at a time**, exactly like the real interview.
+
+For every answer you give, I'll return:
+
+**Score /10**
+
+* Technical correctness
+* Depth
+* Practical understanding
+* Communication
+* JD relevance
+
+Then:
+
+**What was good → Missing points → Incorrect points → Likely follow-ups → Interview-quality answer**
+
+And then immediately the next question.
+
+I will progressively move from:
+
+**Fundamentals → implementation → troubleshooting → architecture → security → scalability → senior-level follow-ups.**
+
+I also won't let you hide behind memorized definitions. If you say *"RAG retrieves relevant documents"*, I'll immediately ask something like:
+
+> **"Your retrieval is returning irrelevant chunks. What exactly would you inspect and how would you fix it?"**
+
+That is the level we're targeting.
+
+---
+
+# AI Interview — Question 1
+
+Let's start with the foundation, but I'll immediately make it practical.
+
+### Q1. RAG vs Fine-Tuning
+
+**You have an enterprise application containing 500,000 internal documents. Users want to ask questions about these documents using Claude or another LLM.**
+
+The interviewer asks:
+
+> **Why would you choose RAG instead of fine-tuning the LLM on those documents?**
+>
+> Explain:
+>
+> 1. What problem RAG solves
+> 2. What problem fine-tuning solves
+> 3. Why fine-tuning all 500,000 documents is not necessarily the right approach
+> 4. How the RAG pipeline would work end-to-end
+> 5. When you *would* consider fine-tuning
+> 6. Can RAG and fine-tuning be used together?
+
+**Answer as if you're sitting in the interview.**
+
+Don't worry about being perfect. I'll evaluate your answer and then drill into the weaknesses before moving to Question 2.
