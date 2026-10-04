@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Java Developer with 4+ years of hands-on experience across the complete Software Development Life Cycle (SDLC), including requirement analysis, application design, development, testing, deployment, and production support. Strong expertise in building scalable enterprise applications using Java (8/17), Spring Boot, Microservices, and REST APIs. AWS Certified Cloud Practitioner with foundational knowledge of cloud architecture, security, and core AWS services. ",
+    "Java Developer with 4.4 years of hands-on experience across the complete Software Development Life Cycle (SDLC), including requirement analysis, application design, development, testing, deployment, and production support. Strong expertise in building scalable enterprise applications using Java (8/17), Spring Boot, Microservices, and REST APIs. AWS Certified Cloud Practitioner with foundational knowledge of cloud architecture, security, and core AWS services. ",
   github: "https://github.com/RajasekharY-9",
   resume:
     "https://drive.google.com/file/d/19i35Kppbp6Aq-iW0q8geSvBZZJw3w2PV/view?usp=sharing",
@@ -52,6 +52,18 @@ export const skills = [
       },
       {
         name: "Spring Boot",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "LLM",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "RAG",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "Agents",
         image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
       },
       {
@@ -108,6 +120,11 @@ export const skills = [
           "",
       },
       {
+        name: "Datadog",
+        image:
+          "",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -129,7 +146,7 @@ export const experiences = [
     //img: "https://www.vectorlogo.zone/logos/amazon/amazon-icon.svg",
     role: "Systems Engineer",
     company: "Infosys",
-    date: "June 2022 - Present",
+    date: "June 2022 - April 2026",
     desc: "Building scalable microservices at Infosys using Java and Spring Boot, automating deployments withGithub Actions and Docker.",
     skills: [
       "Java",
